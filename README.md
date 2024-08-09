@@ -20,7 +20,7 @@ Showcase the use of modern development tools for efficient API testing and deplo
 
 ## Connection Between Technologies
 
-<b>VS Code to Node.js/Express</b>: VS Code is where you write and debug your Node.js and Express.js code.
+<b>VS Code to Node.js/Express</b>: VS Code is where you write and debug your Node.js and Express.js code.<br>
 <b>Node.js/Express to Postman</b>: Node.js runs the server you built with Express.js, and Postman is used to send requests to this server to test the API’s functionality.
 
 ### Basically:
