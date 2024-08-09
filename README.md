@@ -1,4 +1,5 @@
 # Basic-REST-API
+![API](https://github.com/user-attachments/assets/9ad7b9b8-329e-40d8-8e2f-a129c9c5f8b8)
 
 ## Introduction and Objectives
 In this project, I developed a REST API designed to manage patient data, with a primary focus on implementing the essential CRUD (Create, Read, Update, Delete) operations. This API ensures secure and efficient handling of sensitive patient information while adhering to RESTful principles. The project was designed to demonstrate my backend development skills and to be an integral part of my GitHub portfolio.
