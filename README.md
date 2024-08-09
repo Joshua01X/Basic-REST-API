@@ -46,35 +46,35 @@ Create (POST): Adds a new patient to the database.
 
 ![image](https://github.com/user-attachments/assets/8ffc811c-58b7-4f51-a42b-73d45818fddc)
 
-Endpoint: /
-Headers Required: SSN, FirstName, LastName, Phone
-Action: Adds the patient data to the patients object.
+Endpoint: / <br>
+Headers Required: SSN, FirstName, LastName, Phone<br>
+Action: Adds the patient data to the patients object.<br>
 
 Read (GET): Retrieves a patient's medical record.
 
 ![image](https://github.com/user-attachments/assets/0cb6e444-fcaf-4455-b4d8-d1c7f648e7bd)
 
-Endpoint: /records
-Headers Required: SSN, FirstName, LastName
-Body Parameter: reasonforvisit set to "medicalrecords"
-Action: Validates patient details and returns the corresponding record from the records object.
+Endpoint: /records<br>
+Headers Required: SSN, FirstName, LastName<br>
+Body Parameter: reasonforvisit set to "medicalrecords"<br>
+Action: Validates patient details and returns the corresponding record from the records object.<br>
 
 Update (PUT): Updates a patient's phone number.
 
 ![image](https://github.com/user-attachments/assets/86f8d986-b79c-435e-a3f3-c53622e16919)
 
-Endpoint: /
-Headers Required: SSN, FirstName, LastName
-Body Parameter: Phone
-Action: Updates the patient’s phone number if the SSN, first name, and last name match.
+Endpoint: /<br>
+Headers Required: SSN, FirstName, LastName<br>
+Body Parameter: Phone<br>
+Action: Updates the patient’s phone number if the SSN, first name, and last name match.<br>
 
 Delete (DELETE): Removes a patient’s data from the database.
 
 ![image](https://github.com/user-attachments/assets/08d08f82-ab2a-400a-8251-101363036117)
 
-Endpoint: /
-Headers Required: SSN, FirstName, LastName
-Action: Deletes both the patient’s personal information and medical records from the patients and records objects.
+Endpoint: /<br>
+Headers Required: SSN, FirstName, LastName<br>
+Action: Deletes both the patient’s personal information and medical records from the patients and records objects.<br>
 
 4. API Testing with Postman
 Postman was utilized to test the API's functionality, ensuring that each CRUD operation behaved as expected. Tests included creating new patients, retrieving medical records, updating phone numbers, and deleting patient data. Postman allowed for easy manipulation of request headers and body content, providing a comprehensive testing environment.
